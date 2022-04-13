@@ -1,6 +1,7 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
    
 }
 
@@ -11,6 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 
 }
 
@@ -41,22 +43,51 @@ body{
    
 }
 
-.line{
+
+
+
+.landing{
+    height:90vh;
+    object-fit: contain;
+    background-image: url("images/3.jpg");
+    width: 100%;
+}
+
+.img-fun{
+    height: 100%;
+   
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+.line {
     background-color: black;
     width: 20px;
     height: 3px;
     margin: 2px;
-    display: none;
+    
 }
 
 
-@media screen and (max-width: 768px) {
-    .navlist  {
-        height: 100vh;
-       background-color: aqua;
 
-       width: 100%;
-       flex-direction: column;
+.hamburger{
+    position: absolute;
+    right: 5%;
+    
+   
+}
+
+.navlist {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: end;
+        background-color: aquamarine;
     }
     
 }

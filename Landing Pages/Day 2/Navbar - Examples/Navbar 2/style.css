@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;  /* Width and height apply to all parts of element. By default it is content-box*/
+}
+
+body{
+    font-family: sans-serif;
+}
+nav{
+    height: 10vh;
+    background-color: rgb(255, 196, 0);
+    
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto; /* The auto keyword will give left side the remaining space*/
+}
+
+.nav-links li a {
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    
+
+}
+
+.landing{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hamburger {
+   
+    right: 15%;
+    top: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links{
+        position: fixed; /* An element always stays in the same place even if the page is scrolled */
+        background-color: rgb(255, 196, 0);
+        width: 100%;
+        flex-direction: column;
+        height: 100vh;
+        clip-path: circle(100px at 90% -10%) ;
+        -webkit-clip-path : circle(100px at 90% -10%);
+        transition: all 1s ease-out;
+        
+
+    }
+
+    nav{
+        position: relative;
+    }
+    .line {
+        width: 30px;
+        height: 3px;
+        margin: 5px;
+        background-color: rgb(58, 2, 2);
+    }
+
+    .hamburger{
+        position: absolute;
+        right: 4%;
+        top: 20%;
+        z-index: 2;
+    }
+
+    .nav-links.open{
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path : circle(1000px at 90% -10%);
+    }
+
+   
+    
+}
