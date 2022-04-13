@@ -15,7 +15,9 @@ nav{
     display: flex;
     align-items: center;
     box-shadow: 5px 2px rgb(233, 231, 231);
-    justify-content: space-between
+    justify-content: space-between;
+    flex-wrap:nowrap;
+
 }
 
 .navbar-title{
@@ -33,6 +35,8 @@ ul
 display: flex;
 align-items: center;
 justify-content: center;
+flex-wrap:nowrap;
+
 }
 
 li{
@@ -49,5 +53,27 @@ li:hover{
 
 .login-signup{
 justify-content: flex-end;
+padding: 20px;
 }
 
+.login{
+    background-color:black;
+    width:60px;
+    height: 40px;
+    border: none;
+    color:white;
+    border-radius: 8px; 
+    font-family: 'Sen',
+    sans-serif;
+}
+
+.sign-up {
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Sen',
+    sans-serif;
+}
