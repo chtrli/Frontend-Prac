@@ -94,11 +94,17 @@ padding: 20px;
 
 .right-block {
     width: 50%;
-    
+    display: flex;
 }
 
 .img-class{
     height: 500px;
     width: 400px;
     object-fit: contain;
+}
+.img-class-2 {
+    height: 400px;
+    width: 250px;
+    object-fit: contain;
+    margin-top: -90px;
 }
