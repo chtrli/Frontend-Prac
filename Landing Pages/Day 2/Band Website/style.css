@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-nav{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title{
+    color:white;
+    font-family: 'Unica One', cursive;
+    font-size: x-large;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.navlink{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+ul li a{
+    
+    text-decoration: none;
+    padding: 10px;
+    
+    font-family: 'Unica One',
+    cursive;
+    color:white;
+
+}
+
+li a:hover{
+    border:yellow 1 px;
+}
+
+.landing{
+    height:90vh;
+    width: 100%;
+    display: flex;
+   
+}
