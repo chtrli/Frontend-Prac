@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-nav{
+    height: 10vh;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand{
+    font-family: sans-serif;
+    color:white;
+    margin-left: 8px; 
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.ul-main{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+   
+    width: 400px;
+
+}
+
+li a{
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+}
+
+.sign-login{
+   
+    margin-right:2%;
+}
+
+.sign-up {
+    width: 70px;
+    height: 30px;
+    border-radius: 8%;
+    background-color: black;
+    color:white;
+    border: none;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.log-in {
+    width: 70px;
+    height: 30px;
+    border-radius: 8%;
+    background-color: black;
+    color:white;
+    border: none;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    
+
+    
+
+    .main-nav{
+        position: relative;
+        
+    }
+
+    .hamburger{
+       margin-left: 220px;
+       background-color: blue;
+       width: 40px;
+       height: 30px;
+       position: absolute;
+       top: 15px;
+        
+    
+    }
+    .line {
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background-color: black;
+  
+    }
+
+    .ul-main{
+        flex-direction: column;
+        position: absolute;
+        height: 40vh;
+        color:black;
+        background-color: black;
+        top:60px;
+        width: 100%;
+        align-items: center;
+
+    }
+}
