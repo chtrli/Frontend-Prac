@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'sunny_spellsregular';
+    src: url('../Javascript Drum Kit/fonts/sunnyspellsregular-mv9ze-webfont.woff2') format('woff2'),
+        url('../Javascript Drum Kit/fonts/sunnyspellsregular-mv9ze-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    background-color: darkorange;
+}
+
+h1{
+    
+    font-family: 'sunny_spellsregular';
+
+}
