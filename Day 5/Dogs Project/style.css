@@ -1,0 +1,26 @@
+.header{
+    background-color: rgb(255, 187, 0);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    flex-direction: column;
+}
+
+.slide{
+    height:80vh;
+    width: 100%;
+}
+
+.slideshow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    background-repeat:none;
+    background-size: contain;
+    
+}

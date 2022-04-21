@@ -9,3 +9,6 @@ window.addEventListener("keydown", function(e){
     }
 })
 
+fetch('https://api.jokes.one')
+  .then(response => response.json())
+  .then(data => console.log(data));
