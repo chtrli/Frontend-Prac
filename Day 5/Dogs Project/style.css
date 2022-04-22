@@ -9,18 +9,31 @@
     flex-direction: column;
 }
 
-.slide{
-    height:80vh;
+#slide{
+
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 .slideshow{
+    height:70vh;
     position: absolute;
-    top: 0;
+    top: 40;
     left: 0;
     right:0;
     bottom: 0;
-    background-repeat:none;
+    background-repeat:no-repeat;
     background-size: contain;
+    opacity: 0;
+    transform: scale(1);
+    transition: all 0.9s ease-out;
     
+}
+
+.slideshow:nth-last-child(2){
+        opacity: 1;
+        transform: scale(1.08);
+        opacity: 1;
 }
