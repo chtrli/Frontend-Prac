@@ -44,8 +44,11 @@ li a{
         top: 22px;
         cursor: pointer;
     }
- 
-    .main-nav2 {
+    
+    .main-nav2{
+        display: none;
+    }
+    .main-nav2  {
         
         position: relative;
         display: flex;
