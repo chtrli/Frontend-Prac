@@ -3,3 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.main-header{
+    display:flex ;
+    height: 10vh;
+    background-color: rgb(255, 187, 41);
+    font-family: sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+}
+
+.header-logo{
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+li a{
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 780px) {
+  
+    .hamburger{
+        
+        position: absolute;
+        right:8px;
+        top: 22px;
+        cursor: pointer;
+    }
+ 
+    .main-nav2 {
+        
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        color:black;
+        justify-content: space-around;
+        align-items: center;
+        background-color:rgb(255, 187, 41);
+        top:46vh;
+        width: 30vw;
+        margin-top: 0;
+    }
+
+    .line {
+        background-color: rgb(255, 255, 255);
+        width: 20px;
+        margin: 3px;
+        height: 3px;
+    }
+   
+    
+    
+
+}
