@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins";
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    display: flex;
+    background-color: aliceblue;
+}
+
+.contact-left{
+    flex-basis: 60%; /* Means this element will occupy 60% space in the beginning and then shrink resp*/
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    /* Means this element will occupy 60% space in the beginning and then shrink resp*/
+    padding: 40px;
+    background-color: rgb(147, 147, 255);
+    color:white;
+}
+
+h1{
+    margin-bottom: 10px;
+
+}
+
+.container p {
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between ;
+    margin-bottom: 20px;
+}
+
+.table-content{
+
+    color:white;
+    
+}
+
